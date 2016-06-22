@@ -1,0 +1,22 @@
+{
+  "name": "sergey144010/php-base-class",
+  "version": "0.0.1",
+  "type": "library",
+  "description": "Php base class",
+  "keywords": ["php", "base", "class"],
+  "homepage": "https://github.com/sergey144010/php-base-class",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey144010",
+      "email": "sergey144010@mail.ru",
+      "homepage": "https://github.com/sergey144010"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "classmap": ["BaseClass/"]
+  }
+}
