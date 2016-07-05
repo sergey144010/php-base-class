@@ -17,7 +17,7 @@ Add repositories and require in composer.json file
         }
     ],
     "require": {
-        "sergey144010/php-base-class": "*"
+        "sergey144010/php-base-class": "0.0.1.x-dev"
     }
 }
  ```
