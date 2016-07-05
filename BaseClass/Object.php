@@ -6,6 +6,8 @@ use sergey144010\BaseException;
 
 class Object
 {
+    private function __construct(){}
+    
     public static function create($class, $interface = null, $data = null)
     {
         if(isset($interface)){
