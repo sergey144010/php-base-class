@@ -17,13 +17,17 @@ Add repositories and require in composer.json file
         }
     ],
     "require": {
-        "sergey144010/php-base-class": "0.0.1.x-dev"
+        "sergey144010/php-base-class": "*"
     }
 }
  ```
 and make
 
 composer.phar install
+
+or
+
+composer.phar update
 
 Usage
 -----
