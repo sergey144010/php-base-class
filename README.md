@@ -22,6 +22,7 @@ Add repositories and require in composer.json file
 }
  ```
 and make
+
 composer.phar install
 
 Usage
