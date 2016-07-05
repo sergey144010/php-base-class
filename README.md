@@ -1,12 +1,13 @@
 php-base-class
 ==========================
 
-Version 0.0.1
-
+Base classes
 
 Install
 -------
- add repositories and require in composer.json
+
+Add repositories and require in composer.json file
+
  ```php
 {
     "repositories": [
@@ -16,16 +17,12 @@ Install
         }
     ],
     "require": {
-        "sergey144010/php-base-class": "dev-master"
+        "sergey144010/php-base-class": "*"
     }
 }
  ```
- and make
- composer.phar update
-
- composer.phar require
-  - package name: "sergey144010/php-base-class": "dev-master"
-
+and make
+composer.phar install
 
 Usage
 -----
